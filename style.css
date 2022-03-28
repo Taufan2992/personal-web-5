@@ -1,0 +1,492 @@
+/* bagian navbar */
+nav .container-nav {
+    width: 1350px;
+    height: 7hv;
+    background-color: rgb(252, 250, 250);
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.container-nav .container-nav-leftside {
+    flex: 1;
+    display: flex;
+    padding-left: 20px;
+}
+
+.container-nav .container-nav-leftside img {
+    padding: 10px;
+}
+
+.container-nav .container-nav-leftside ul li {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+}
+
+.container-nav .container-nav-leftside ul li a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+
+}
+
+.container-nav .container-nav-rightside {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 25px;
+}
+
+.container-nav .container-nav-rightside a {
+    text-decoration: none;
+    padding: 7px 20px;
+    background: #161029;
+    border-radius: 10px;
+    color: white;
+}
+
+/* bagian card */
+.container-main {
+    width: 1350px;
+    display: flex;
+    height: 93hv;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247, 244, 244);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.container-main .container-content {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+}
+
+.container-content .left-side {
+    flex: 60%;
+    padding-right: 20px;
+    padding-left: 70px;
+}
+
+.container-content .right-side {
+    flex: 40%;
+}
+
+.left-side a {
+    text-decoration: none;
+
+}
+
+.contact {
+    color: white;
+    background-color: rgb(25, 25, 27);
+    padding: 7px 20px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.download {
+    color: black;
+}
+
+.social-media i {
+    font-size: 25px;
+    margin-right: 20px;
+    background-color: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+/* bagian project */
+.container {
+    width: 1350px;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+
+}
+
+.container .container-item {
+    width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.container .container-item h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.container .container-item .project-name {
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.container .container-item .project-name input {
+    width: 100%;
+    font-weight: 400;
+    padding: 7px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+
+
+}
+
+.container-item form .project-date {
+    display: flex
+}
+
+.container-item form .project-date .project-startdate {
+    flex: 1;
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container-item form .project-date .project-startdate input {
+    width: 100%;
+    font-weight: 400;
+    padding: 7px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+}
+
+.container-item form .project-date .project-enddate {
+    flex: 1;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container-item form .project-date .project-enddate input {
+    width: 100%;
+    font-weight: 400;
+    padding: 7px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+}
+
+.container-item form .project-content label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container-item form .project-content textarea {
+    width: 100%;
+    height: 250px;
+    resize: none;
+    font-weight: 400;
+    padding: 7px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+
+}
+
+.container-item form .project-technologies .technologies-item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.container-item form .project-technologies .technologies-item input {
+    margin-bottom: 20px;
+}
+
+.container-item form .project-technologies .technologies-item .technologies-left {
+    width: 50%;
+}
+
+.container-item form .project-technologies .technologies-item .technologies-right {
+    width: 50%;
+}
+
+
+.container-item form .project-image {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: white;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container-item form .project-image label p {
+    font-size: 20px;
+    border: 1px solid rgb(207, 198, 198);
+    padding: 8px 30px;
+    margin: -9px;
+    border-radius: 10px;
+    background-color: #e2dede;
+}
+
+.container-item form .project-image label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-item form .project-button button {
+    padding: 8px 20px;
+    font-size: 17px;
+    background: #161029;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.container-item form .project-button {
+    display: flex;
+    justify-content: end;
+    padding-bottom: 100px;
+}
+
+/* bagian contact */
+
+.content-contact {
+    background-color: rgb(220, 223, 228);
+    width: 1350px;
+    height: 800px;
+}
+
+.content-contact form {
+    width: 400px;
+    margin: auto;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-contact form .form-input {
+    margin-bottom: 15px;
+}
+
+.content-contact form .form-input label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content-contact form .form-input input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.content-contact form button {
+    float: right;
+    margin-top: 10px;
+    padding: 5px 25px;
+    border-radius: 20px;
+    background-color: rgb(49, 43, 71);
+    color: white;
+    
+}
+
+/* bagian addproject */
+.container-addproject {
+    margin-top: 10px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.myproject {
+    width: 1350px;
+    height: 100%;
+    background-color:rgb(252, 250, 250) ;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+.myproject h1 {
+    text-align: center;
+}
+
+.myproject .myproject-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myproject .myproject-content .myproject-content-item {
+    border: 1px solid black;
+    background-color: white;
+    width: 28%;
+    height: 700px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 0 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flexbox;
+    justify-content: start;
+    align-items: center;
+    box-shadow: 1px 4px 5px;
+    
+}
+
+.myproject .myproject-content .myproject-content-item .myproject-item-image {
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+.myproject .myproject-content .myproject-content-item .myproject-item-image img {
+    height: 300px;
+    width: 100%; 
+    object-fit: cover;
+}
+
+.myproject .myproject-content .myproject-content-item .myproject-item-title {
+    text-align: left;
+    height: 50px;
+}
+.myproject .myproject-content .myproject-content-item .myproject-item-title p {
+    line-height: 0;
+    color: grey;
+    margin-bottom: 30px;
+    max-height: 50px;
+}
+
+.myproject .myproject-content .myproject-content-item .myproject-item-text {
+    text-align: justify;
+    max-height: 141px;
+    overflow: hidden;
+    
+}
+
+.myproject .myproject-content .myproject-content-item .myproject-item-text p {
+    max-height: fit-content;
+
+    
+}
+.myproject .myproject-content .myproject-content-item .myproject-item-icon {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    max-height: 50px;
+    
+}
+.myproject .myproject-content .myproject-content-item .myproject-item-icon img {
+    margin-right: 20px;
+    max-width: 25px;
+}
+
+.myproject .myproject-content .myproject-content-item .myproject-item-button {
+    display: flex;
+    margin-left: -10px;
+    max-height: 50px;
+}
+
+.myproject .myproject-content .myproject-item-button .button-left {
+    flex: 1;
+    
+
+}
+.myproject .myproject-content .myproject-item-button .button-right {
+    flex: 1; 
+
+}
+.myproject .myproject-content .myproject-content-item .myproject-item-button button {
+    padding: 5px 80px;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #161029;
+    font-weight: 700;
+}
+
+/* bagian project detail */
+.project-detail {
+    width: 1350px;
+    background-color: rgb(220, 223, 228);
+    padding-top: 50px;
+}
+
+.project-detail h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.project-detail-top {
+    display: flex;
+}
+
+.project-detail-top-left {
+    display: flex;
+    flex: 60%;
+}
+
+.project-detail-top-left img {
+    width: 50%;
+    object-fit: contain;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.project-detail-top-right {
+    flex: 40%;
+}
+
+.project-detail-top-right-duration {
+    width: 100%;   
+}
+
+.project-detail-top-right-duration i {
+    font-size: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.project-detail-top-right-technologies {
+    width: 100%;
+    
+}
+
+.project-detail-top-right-tecnlogies img {
+    max-width: 25px;
+    
+}
+.project-detail-top-right-tecnlogies label {
+    margin-left: 10px;
+}
+
+.project-detail-bottom {
+    margin: 80px;
+    margin-bottom: 0%;
+    text-align: justify;
+    padding-bottom: 100px;
+
+}
